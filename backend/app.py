@@ -30,15 +30,6 @@ agent = create_agent(
     checkpointer=checkpointer
 )
 
-checkpointer = ""
-
-model = init_chat_model(
-    "google_genai:gemini-2.5-flash",
-    api_key=GOOGLE_API_KEY
-)
-
-agent = ""
-
 question_count = 0
 current_subject = ""
 thread_id = "interview_session"
